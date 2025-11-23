@@ -1,0 +1,32 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+  "git.path": "/usr/bin/git",
+  "database-client.autoSync": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "files.autoSave": "onFocusChange",
+
+  // Enable prompt files in Copilot Chat
+  "chat.promptFiles": true,
+
+  // Define where prompt files are located (workspace relative)
+  "github.copilot.chat.promptFilesLocations": [
+    ".github/prompts"
+  ],
+
+  // (Optional) Copilot-instructions file
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "file": ".github/copilot-instructions.md"
+    }
+  ],
+
+  // (Optional) to auto-apply edits or approve suggestions
+  "github.copilot.chat.editing.autoApprove": {
+    "**/*": true
+  }
+}

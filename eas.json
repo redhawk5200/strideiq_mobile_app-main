@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 16.19.2",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development-simulator": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": { "simulator": true },
+      "env": {
+        "RCT_NEW_ARCH_ENABLED": "1"
+      }
+    },
+    "development-device": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": { "simulator": false },
+      "env": {
+        "RCT_NEW_ARCH_ENABLED": "1"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "RCT_NEW_ARCH_ENABLED": "1"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "RCT_NEW_ARCH_ENABLED": "1"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

@@ -34,13 +34,13 @@
 - **Goal Optimization** - Intelligent race time and fitness goal adjustments
 
 #### 🎥 AI Coach Interface Demo
+
 <div align="center">
-  <video width="80%" controls>
-    <source src="./assets/images/coach.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="./assets/images/coach.gif" width="80%" alt="AI Coach Interface Demo">
   <p><em>Interactive AI Coach providing personalized training recommendations and real-time health insights</em></p>
 </div>
+
+> **Note:** If the GIF doesn't load, you can view the full video demo at [`./assets/images/coach.mp4`](./assets/images/coach.mp4)
 
 ### 👤 Smart Onboarding
 - **Progressive User Setup** - 11-step guided onboarding process

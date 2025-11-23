@@ -1,7 +1,7 @@
 # StrideIQ Mobile App 🏃‍♂️
 
 <div align="center">
-  <img src="./assets/images/cover-01.jpg" width="120" height="120" alt="StrideIQ Logo">
+  <img src="./assets/images/cover-01.jpg" width="100%" alt="StrideIQ - Intelligent Fitness Tracking Banner">
   
   **A comprehensive React Native + Expo mobile application for intelligent fitness tracking, AI-powered coaching, and Apple Watch integration.**
   
@@ -32,6 +32,15 @@
 - **Daily Check-ins** - Smart health assessments with real-time insights
 - **Performance Analytics** - Data-driven coaching recommendations
 - **Goal Optimization** - Intelligent race time and fitness goal adjustments
+
+#### 🎥 AI Coach Interface Demo
+<div align="center">
+  <video width="80%" controls>
+    <source src="./assets/images/coach.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p><em>Interactive AI Coach providing personalized training recommendations and real-time health insights</em></p>
+</div>
 
 ### 👤 Smart Onboarding
 - **Progressive User Setup** - 11-step guided onboarding process
